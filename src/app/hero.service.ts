@@ -13,6 +13,7 @@ export class HeroService {
     this.messageService.add('HeroService: fetched heroes');
     return heroes;
   }
-
+  // service in service
+  // injecting message service into hero service
   constructor(private messageService: MessageService) { }
 }
